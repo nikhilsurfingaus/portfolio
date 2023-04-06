@@ -17,6 +17,7 @@ import Typewriter from "typewriter-effect";
 import ScrollToTop from "react-scroll-to-top";
 import "react-tooltip/dist/react-tooltip.css";
 import { Tooltip as ReactTooltip } from "react-tooltip";
+import { Slide } from "react-awesome-reveal";
 
 const HomeParal = () => {
 
@@ -79,7 +80,9 @@ const HomeParal = () => {
         <Container>
         <Row>
           <Col md={7}>
+            <Slide direction="left">
             <h2 className='headtext'>G'Day <span className='wave'>👋 </span></h2>
+            </Slide>
             <h2 className='nametext'>You Can Call Me <span className='gradient'>Nik</span></h2>
             <span></span>
             <Typewriter
@@ -120,10 +123,9 @@ const HomeParal = () => {
             }}
               className='socailmediabtn'><FiFigma className='icon' /></button>
           </Col>
-
           <Col md={5}>
-            <div className="imagedeveloper">
-            </div>
+              <div className="imagedeveloper">
+              </div>
           </Col>
         </Row>
       </Container>        
@@ -139,7 +141,9 @@ const HomeParal = () => {
               </p>
           </Col>
           <Col md={5}>
+              <Slide direction="right">
               <div className="webimage"></div>
+              </Slide>
           </Col>
           <Col md={12} className="text-center">
               <button className='chat'>Let's Chat <span className='smile'>😃</span> </button>

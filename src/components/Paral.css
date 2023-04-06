@@ -424,4 +424,7 @@ section img#mf {
     .aboutmetext {
         font-size: 3.5rem !important;
     }
+    .row {
+        padding-top: 0px;
+    }
 }
