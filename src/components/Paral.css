@@ -1,0 +1,427 @@
+body {
+    background: linear-gradient(rgb(79, 4, 114), rgba(153, 11, 124, 0.795)) !important;
+    min-height: 100vh;
+}
+
+@import url('https://fonts.cdnfonts.com/css/proxima-nova-2');
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Labrada&display=swap");
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+section::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 1000;
+    background: linear-gradient(to top, #1c0522, transparent);
+}
+
+section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section img#moon {
+    mix-blend-mode: screen;
+}
+
+section img#mf {
+    z-index: 10;
+    width: 120%;
+    height: 120%;
+    left: -10%;
+    object-fit: cover;
+}
+
+#text {
+    color: white;
+    white-space: nowrap;
+    font-size: 3.6rem;
+    z-index: 9;
+    margin-top: 50vh;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+#btn {
+    text-decoration: none;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: white;
+    color: rgb(255, 0, 234);
+    font-size: 1.5rem;
+    display: inline-block;
+    z-index: 500;
+    margin-top: 2rem;
+}
+
+#btn:hover {
+    color: black;
+}
+
+.sec {
+    position: relative;
+    padding: 20px;
+    background: #1c0522;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.row {
+    padding-top: 80px;
+}
+
+.wave {
+    animation-name: wave-animation;
+    /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.1s;
+    /* Change to speed up or slow down */
+    animation-iteration-count: infinite;
+    /* Never stop waving :) */
+    transform-origin: 70% 70%;
+    /* Pivot around the bottom-left palm */
+    display: inline-block;
+    z-index: 1000;
+}
+
+.smile {
+    animation-name: wave-animation;
+    /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.1s;
+    /* Change to speed up or slow down */
+    animation-iteration-count: infinite;
+    /* Never stop waving :) */
+    transform-origin: 70% 70%;
+    /* Pivot around the bottom-left palm */
+    display: inline-block;
+    z-index: 1000;
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    10% {
+        transform: rotate(14deg);
+    }
+    /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+        transform: rotate(-8deg);
+    }
+    30% {
+        transform: rotate(14deg);
+    }
+    40% {
+        transform: rotate(-4deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    60% {
+        transform: rotate(0deg);
+    }
+    /* Reset for the last half to pause */
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.Typewriter__wrapper {
+    margin-left: 8px;
+    font-size: 2.5em !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
+}
+
+.Typewriter__cursor {
+    font-size: 2.4em !important;
+    color: #fff !important;
+}
+
+.headtext {
+    padding-top: 120px;
+    font-size: 5.8rem !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.gradient {
+    background: linear-gradient(#ff00ae, #9803a5, #b10179);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nametext {
+    font-size: 4.0rem !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.imagedeveloper {
+    margin-top: 50px;
+    max-width: 90%;
+    height: 100%;
+    background-image: url(../assets/home/profile.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.socailmediabtn {
+    margin-top: 2rem;
+    width: 90px;
+    height: 45px;
+    background-color: transparent;
+    border: none;
+    border-radius: 15px;
+}
+
+.socailmediabtn:hover {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+    opacity: 1;
+    transition: 0.6s ease;
+}
+
+.icon {
+    font-size: 30px;
+    color: rgb(181, 52, 176);
+}
+
+
+/* Last Section */
+
+.finalHome {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 40px 10px 0px rgba(86, 2, 86, 0.248);
+    margin-top: -20px;
+    z-index: 1200;
+    overflow: hidden;
+}
+
+
+/* Aboutpage style */
+
+.aboutpagebackground {
+    width: 100%;
+    height: 100vh;
+    background-color: #4158d0;
+    background-image: linear-gradient( 43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
+    padding-top: 110px;
+}
+
+.textbackground {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    background-color: transparent;
+    border-radius: 15px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+    cursor: pointer;
+}
+
+.textbackground:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+
+.aboutmetext {
+    font-size: 3rem !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
+}
+
+.aboutmetext span:hover {
+    display: inline-block;
+    transition: all 500ms;
+    color: #fff;
+    animation: vibrate 30ms linear infinite forwards;
+}
+
+@keyframes vibrate {
+    0% {
+        transform: translateX(-1px) translateY(1px);
+    }
+    100% {
+        transform: translateX(1px) translateY(-2px);
+    }
+}
+
+.aboutdetails {
+    font-size: 1.6em !important;
+    color: #fff;
+}
+
+.webimage {
+    max-width: 500px;
+    height: 350px;
+    background-image: url(../assets/home/homeOffer.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.chat {
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: white;
+    color: rgb(255, 0, 234);
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    width: auto;
+    border-style: none;
+}
+
+.chat:hover {
+    color: black;
+}
+
+@media (max-width: 767px) {
+    .aboutpagebackground {
+        width: 100%;
+        height: 100%;
+    }
+    .textbackground {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px !important;
+    }
+    .aboutdetails {
+        font-size: 1em !important;
+        color: #fff;
+    }
+    .aboutmetext {
+        font-size: 2rem !important;
+        text-align: center;
+    }
+    .headtext {
+        font-size: 4.8rem !important;
+        text-align: center;
+    }
+    .nametext {
+        font-size: 5.0rem !important;
+        text-align: center;
+    }
+    .imagedeveloper {
+        width: 150px;
+        height: 150px;
+        background-image: url(../assets/home/profile.png);
+        background-size: cover;
+        background-position: center;
+        margin-left: 130px;
+    }
+    .Typewriter__wrapper {
+        margin-left: 70px;
+    }
+    .socailmediabtn {
+        width: 60px;
+    }
+    #fbtn {
+        margin-left: 60px;
+    }
+    .webimage {
+        max-width: 500px;
+        height: 350px;
+        background-image: url(../assets/home/homeOffer.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .textbackground:hover {
+        transform: scale(1);
+        transition: all 0.5s ease;
+    }
+}
+
+@media (max-width: 767px) {
+    .row {
+        padding-top: 0px;
+    }
+    .Typewriter__wrapper {
+        font-size: 1.9em !important;
+    }
+    .Typewriter__cursor {
+        font-size: 2.2em !important;
+    }
+    .headtext {
+        padding-top: 100px;
+        font-size: 2em !important;
+    }
+    .nametext {
+        font-size: 2.4em !important;
+    }
+    .imagedeveloper {
+        margin-top: 50px;
+        max-width: 420px;
+        max-height: 400px;
+    }
+    .socailmediabtn {
+        margin-top: 1rem;
+    }
+    #text {
+        font-size: 2.3rem;
+    }
+    .webimage {
+        max-width: 500px;
+        height: 200px;
+    }
+}
+
+
+/* Big Screens */
+
+@media (min-width: 1800px) {
+    .sec {
+        padding: 80px;
+    }
+    .imagedeveloper {
+        margin-top: 50px;
+        max-width: 100%;
+        height: 100%;
+    }
+    section img#moon {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1650px) {
+    .sec {
+        padding: 80px;
+    }
+    .imagedeveloper {
+        margin-top: 50px;
+        max-width: 100%;
+        height: 100%;
+    }
+    section img#moon {
+        margin-top: 0;
+    }
+    .aboutdetails {
+        font-size: 1.2em !important;
+    }
+    .aboutmetext {
+        font-size: 3.5rem !important;
+    }
+}
