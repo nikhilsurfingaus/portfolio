@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="footer-div">
         <Slide direction="down">
         <p className="footer-text">
-          Made With <span role="img">💜</span> By Nikhil Naik
+          Made With <span role="img">❤️</span> By Nikhil Naik
         </p>
         </Slide>
     </div>  
