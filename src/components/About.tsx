@@ -22,7 +22,12 @@ const About = () => {
               <div className="meimage"></div>
           </Col>
           <Col md={12} className="text-center">
-              <button className='chat'>Resume <span><AiOutlineCloudDownload /></span></button>
+              <button className='chat'>  
+                <a href='https://drive.google.com/file/d/1XBFY8_dXQn1iP7pFMGm4YLl7_WKmdBlv/view?usp=sharing'         download     target='_blank'
+                    rel='noopener noreferrer'     style={{textDecoration: 'none', color: ' rgb(255, 0, 234)'}}  >
+                  Resume <span><AiOutlineCloudDownload /></span>
+                </a>
+              </button>
           </Col>
           </Row>
         </Container>

@@ -29,16 +29,24 @@
     border-radius: 0;
     padding: 10px 0;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: 'Proxima Nova', sans-serif;
 }
 
 .aboutmetext {
-    font-size: 2.5rem !important;
+    font-size: 2rem !important;
 }
 
 .aboutdetails {
-    font-size: 1.5em !important;
+    font-size: 1.2em !important;
+}
+
+.chat a:hover {
+    color: black !important;
+}
+
+.chat {
+    font-size: 1.4rem !important;
 }
 
 @media (max-width: 767px) {

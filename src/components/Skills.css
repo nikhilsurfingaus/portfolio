@@ -1,6 +1,45 @@
+@import url('https://fonts.cdnfonts.com/css/proxima-nova-2');
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Labrada&display=swap");
 .skill {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+}
+
+.jumbo {
+    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    width: 70%;
+    background: transparent;
+    margin-top: -200px;
+}
+
+.progress-bar {
+    color: gray !important;
+    background-color: rgb(177, 40, 231) !important;
+}
+
+.nav {
+    --bs-nav-link-color: rgb(0, 0, 0) !important;
+    --bs-nav-link-hover-color: white !important;
+    font-weight: bold;
+}
+
+.head {
+    font-family: 'Proxima Nova', sans-serif !important;
+    font-size: 3rem !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
+}
+
+@media (min-width: 1200px) and (max-width: 1650px) {
+    .jumbo {
+        width: 85%;
+    }
 }
