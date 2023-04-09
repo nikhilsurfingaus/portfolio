@@ -9,7 +9,7 @@ interface SkillsBarProps {
   export const SkillsBar = ({ skill, value, isScrolled }: SkillsBarProps) => {
     return (
       <div style={{ width: "95%" }}>
-        <p className="lead text-white mb-0 mt-1">{skill}</p>
+        <p className="lead text-white fw-bold mb-0 mt-1">{skill}</p>
         <ProgressBar
           className={!isScrolled ? "progress" : " progress-bar-animation"}
           now={value}
