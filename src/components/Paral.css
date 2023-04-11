@@ -248,6 +248,8 @@ section img#mf {
     color: #fff !important;
     font-weight: 600 !important;
     letter-spacing: 1px !important;
+    padding-top: 20px;
+    padding-left: 10px;
 }
 
 .aboutmetext span:hover {
@@ -269,6 +271,7 @@ section img#mf {
 .aboutdetails {
     font-size: 1.6em !important;
     color: #fff;
+    padding-left: 10px;
 }
 
 .webimage {
@@ -291,7 +294,7 @@ section img#mf {
 }
 
 .chat:hover {
-    color: black;
+    color: black !important;
 }
 
 @media (max-width: 767px) {

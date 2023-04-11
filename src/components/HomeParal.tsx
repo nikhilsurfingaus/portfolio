@@ -145,7 +145,7 @@ const HomeParal = () => {
               <div className="webimage"></div>
               </Slide>
           </Col>
-          <Col md={12} className="text-center">
+          <Col md={12} className="text-center pb-4">
               <button className='chat'>Let's Chat <span className='smile'>😃</span> </button>
           </Col>
           </Row>

@@ -27,6 +27,10 @@
     color: rgb(88, 138, 182);
 }
 
+.vertical-timeline-element-content-arrow {
+    border-right: 7px solid rgb(255, 0, 230) !important;
+}
+
 .final {
     color: white;
 }

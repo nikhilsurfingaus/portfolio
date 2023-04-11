@@ -51,7 +51,7 @@ const Project = ({ technologies, title, image, color, id, github, deployed, desc
             <em>{technologies}</em>
           </p>
           <h3 className="projectTitle">{title}</h3>
-          <span className="viewWork">View Work &#8594;</span>
+          <span className="viewWork">View Project &#8594;</span>
         </div>
         <div className="imageContainer col-6 d-flex align-items-center justify-content-center">
           <img src={image} alt="Laptop displaying the application" />
@@ -62,9 +62,10 @@ const Project = ({ technologies, title, image, color, id, github, deployed, desc
         onRequestClose={handleCloseModal}
         style={{
           content: {
-            backgroundColor: "#101010",
+            backgroundColor: "#6F2574",
+            borderRadius: "20px",
             color: "#9f9f9f",
-            padding: "60px",
+            padding: "30px",
             display: "flex",
             flexDirection: "column",
             width: "400px",
@@ -74,19 +75,21 @@ const Project = ({ technologies, title, image, color, id, github, deployed, desc
             bottom: "auto",
             marginRight: "-50%",
             transform: "translate(-50%, -50%)",
-            zIndex: "999",
+            zIndex: "1000",
           },
         }}
       >
         <img src={closeModal} className="closeMenu closeModal" onClick={handleCloseModal} alt="Close"></img>
         <h3 className="modalTitle">{title}</h3>
         <p className="projectDescription">{description}</p>
-        <button className="btn" onClick={() => (window.location.href = github)}>
-          GitHub Repo
-        </button>
-        <button className="btn" onClick={() => (window.location.href = deployed)}>
-          Live Link
-        </button>
+        <div className="external d-flex justify-content-center gap-3 mt-3">
+          <button className="btn modal-btn" onClick={() => window.open(github, "_blank")}>
+            GitHub Repo
+          </button>
+          <button className="btn modal-btn" onClick={() => window.open(deployed, "_blank")}>
+            Live Link
+          </button>
+        </div>
       </Modal>
     </motion.div>
   );
