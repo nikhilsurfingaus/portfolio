@@ -12,6 +12,10 @@ src="https://avatars.githubusercontent.com/u/7377195?s=200&v=4" alt="drawing" wi
 
 - **Bootstrap V5** is a free, open source front-end development framework for the creation of websites and web apps. Designed to enable responsive development of mobile-first websites, Bootstrap provides a collection of syntax for template designs.
 
+- **React TypeScript** is a programming language and library combination used for building web applications that combines the React JavaScript library with the TypeScript language for improved type checking and increased developer productivity.
+
+- **EmailJS** is a cloud-based  email delivery API service that allows you to send emails directly from your client-side JavaScript code without the need for a backend server.
+
 ## Description 
 SaveYT.net provides users with the simple experience of downloading Youtube videos in a rnage of mp4/mp3 formats. 
 
