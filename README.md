@@ -26,14 +26,12 @@ Features:
 
 ## Screenshots 
 <p float="left">
-  <img src="https://github.com/nikhilsurfingaus/SaveYT.net/blob/master/frontend/src/assets/Help/Help1.jpg" height=45% width=45% />
-  <img src="https://github.com/nikhilsurfingaus/SaveYT.net/blob/master/frontend/src/assets/Help/Help2.png" height=45% width=45% />
-  <img src="https://github.com/nikhilsurfingaus/SaveYT.net/blob/master/frontend/src/assets/Help/Help3.png" height=45% width=45% />
-  <img src="https://github.com/nikhilsurfingaus/SaveYT.net/blob/master/frontend/src/assets/Help/Help4.png" height=45% width=45% />
-  <img src="https://github.com/nikhilsurfingaus/SaveYT.net/blob/master/frontend/src/assets/Help/Help5.png" height=45% width=45% />
-  <img src="https://github.com/nikhilsurfingaus/SaveYT.net/blob/master/frontend/src/assets/Help/Help6.jpg" height=45% width=45% />
-  <img src="https://github.com/nikhilsurfingaus/SaveYT.net/blob/master/frontend/src/assets/Help/Help7.jpg" height=45% width=45% />
-
+  <img src="https://github.com/nikhilsurfingaus/portfolio/blob/master/src/assets/portfolio/demo1.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/portfolio/blob/master/src/assets/portfolio/demo2.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/portfolio/blob/master/src/assets/portfolio/demo3.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/portfolio/blob/master/src/assets/portfolio/demo6.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/portfolio/blob/master/src/assets/portfolio/demo4.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/portfolio/blob/master/src/assets/portfolio/demo5.jpg" height=45% width=45% />
 </p>
 
 ## Libraries
