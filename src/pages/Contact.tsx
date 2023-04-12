@@ -5,7 +5,7 @@ const Contact = () => {
     return (
         <div>
             <div className='title'>
-                <h2>Personal Projects</h2>
+                <h2>Lets Talk</h2>
             </div>
             <Floating />
             <ScrollToTop smooth color="#B534B0" />

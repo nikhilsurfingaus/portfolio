@@ -19,6 +19,7 @@ import "react-tooltip/dist/react-tooltip.css";
 import { Tooltip as ReactTooltip } from "react-tooltip";
 import { Slide } from "react-awesome-reveal";
 
+
 const HomeParal = () => {
 
     const starsRef = useRef<HTMLImageElement | null>(null);

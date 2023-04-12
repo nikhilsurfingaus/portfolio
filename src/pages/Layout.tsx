@@ -1,10 +1,11 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import HomePage from "./Home";
 import Profile from "./Profile";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Footer from "../components/Footer";
+import PageNotFound from "../components/404Err/PageNotFound";
 
 const Layout = () => {
   return (
@@ -16,6 +17,8 @@ const Layout = () => {
               <Route path="/profile" element={<Profile />}  />
               <Route path="/projects" element={<Projects />}  />
               <Route path="/contact" element={<Contact />}  />
+              <Route path="/404" element={<PageNotFound />}  />
+              <Route path="*" element={<Navigate to="/404" />}  />
       </Routes>
       <Footer />
     </Router>
