@@ -2,7 +2,7 @@ import './Paral.css'
 import stars from '../assets/home/stars.png'
 import mb from '../assets/home/mountains_behind.png'
 import mf from '../assets/home/mountains_front.png'
-import rock from '../assets/home/rock1.png'
+import rock from '../assets/home/rock5.png'
 
 import { useRef, useEffect, useCallback } from 'react';
 import { Container, Row, Col } from 'react-bootstrap'
@@ -68,7 +68,7 @@ const HomeParal = () => {
     <>
           <ScrollToTop smooth color="#B534B0" />
 
-        <section>
+        <section className='animate__animated animate__fadeIn'>
             <img ref={starsRef} src={stars} id='sky' alt="sky" />
             <img ref={moonRef} src={rock} id='moon' alt="planet" />
             <img ref={mbRef} src={mb} id='mb' alt="mount" />
@@ -147,7 +147,9 @@ const HomeParal = () => {
               </Slide>
           </Col>
           <Col md={12} className="text-center pb-4">
+            <a href="/contact">
               <button className='chat'>Let's Chat <span className='smile'>😃</span> </button>
+            </a>
           </Col>
           </Row>
         </Container>

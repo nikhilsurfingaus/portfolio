@@ -3,7 +3,7 @@ import ScrollToTop from "react-scroll-to-top";
 
 const Contact = () => {
     return (
-        <div>
+        <div className="animate__animated animate__fadeIn">
             <div className='title'>
                 <h2>Lets Talk</h2>
             </div>

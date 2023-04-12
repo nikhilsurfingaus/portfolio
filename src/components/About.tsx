@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className='about'>
       <Container>
-        <Row className='textbackground'>
+        <Row className='textbackground animate__animated animate__fadeIn'>
           <Col md={7}>
               <h3 className='aboutmetext ps-3'>About Me<span>?</span></h3>
               <p className='aboutdetails ps-3'>
