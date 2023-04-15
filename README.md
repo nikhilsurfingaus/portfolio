@@ -20,7 +20,7 @@ src="https://avatars.githubusercontent.com/u/7377195?s=200&v=4" alt="drawing" wi
 The website was designed and created by Nikhil Naik, showcasing his skills and projects.
 
 Features:
-- Multiple Pages (React Router): The website has multiple pages to showcase various aspects of Rahul's skills and projects.
+- Multiple Pages (React Router): The website has multiple pages to showcase various aspects of Nikhil's skills and projects.
 - Fully Responsive: The website is fully responsive and works well on all devices.
 - Modern Design: The website has a modern and visually appealing design.
 
