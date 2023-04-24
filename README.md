@@ -1,4 +1,4 @@
-# <img src="https://github.com/nikhilsurfingaus/portfolio/blob/master/src/assets/home/logo.png" alt="drawing" height="75" width="75"/> Nikhil Naik Portfolio 
+# <img src="https://github.com/nikhilsurfingaus/portfolio/blob/master/src/assets/home/logo.png" alt="drawing" height="75" width="75"/> Nikhil Naik Portfolio App
 
 ## Site Link: [https://nikhil-naik-portfolio.netlify.app](https://nikhil-naik-portfolio.netlify.app)
 
