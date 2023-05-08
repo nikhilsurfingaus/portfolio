@@ -47,6 +47,27 @@ export const data = [{
         "bgcolor": "transparent",
         "id": 4
     },
+    {
+        "title": "MoonCoinCollector",
+        "image": project7,
+        "description": "MoonCoinCollector allows crypto investors to easily track their portfolio, logging in, with session data cached meaning you don't need to login in if you close the page. We have 1000+ cryptos avaliable to add to your portfolio. Firebase is the BaaS database making this application fullstack, new coins and user authentication schemas pass through Firebase, with users authenticated via google gmail login",
+        "technologies": "React | Typescript |Bootstrap | Firebase",
+        "github": "https://github.com/nikhilsurfingaus/fullstack-crypto-portfolio",
+        "deployed": "https://mooncoincollector.netlify.app/",
+        "bgcolor": "transparent",
+        "id": 7
+    },
+
+    {
+        "title": "Buildz",
+        "image": project8,
+        "technologies": "Vue3 | Typescript | Tailwind CSS",
+        "description": "Welcome to BUILDZ, the ultimate car build website, our platform showcases in-depth builds of two iconic cars, the Toyota 86 and Audi A7. With meticulous attention to detail, we provide step-by-step guides, stunning car photos, and renders to bring these builds to life. BUILDZ is the perfect destination to our collection of premium products, get inspired by jaw-dropping car photos, and visualize your dream build.",
+        "github": "https://github.com/nikhilsurfingaus/buildz-vue3",
+        "deployed": "https://buildz.netlify.app/",
+        "bgcolor": "transparent",
+        "id": 8
+    },
 
     {
         "title": "Australian Tactical Groups",
@@ -68,26 +89,5 @@ export const data = [{
         "deployed": "https://flyinoz.netlify.app/",
         "bgcolor": "transparent",
         "id": 6
-    },
-    {
-        "title": "CryptoXGains",
-        "image": project7,
-        "description": "The Crypto X Gains web application enabled users to determine how many X their ROI (Return On Investement) will be for a given Token/Currency. Coins are retrieved from an API call via PostMan to the CoinStats Cryptp API for metrics about the current crypto names, icons and symbols for the drop down menu within the form.",
-        "technologies": "React | Javascript |Bootstrap | PostMan API",
-        "github": "https://github.com/nikhilsurfingaus/CryptoXGains",
-        "deployed": "https://cryptoxgainscalculator.netlify.app/",
-        "bgcolor": "transparent",
-        "id": 7
-    },
-
-    {
-        "title": "F02021",
-        "image": project8,
-        "technologies": "React | Javascript | CSS",
-        "description": "Simple responsive React Application which houses the year that was in Formula 1 in 2021. With driver season reviews, race recaps, interactive quizes, champions corner and much more. Being responsive with mobile view also being usable and interacative accordingley",
-        "github": "https://github.com/nikhilsurfingaus/F02021",
-        "deployed": "https://fo2021.netlify.app/",
-        "bgcolor": "transparent",
-        "id": 8
     }
 ]
