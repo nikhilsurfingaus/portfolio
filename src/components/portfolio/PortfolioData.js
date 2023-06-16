@@ -6,6 +6,8 @@ import project5 from '../../assets/portfolio/project5.png'
 import project6 from '../../assets/portfolio/project6.png'
 import project7 from '../../assets/portfolio/project7.png'
 import project8 from '../../assets/portfolio/project8.png'
+import project9 from '../../assets/portfolio/project9.png'
+import project10 from '../../assets/portfolio/project10.png'
 
 export const data = [{
         "title": "PySolSweep",
@@ -47,6 +49,21 @@ export const data = [{
         "bgcolor": "transparent",
         "id": 4
     },
+
+
+
+    {
+        "title": "TV N'Chill",
+        "image": project9,
+        "technologies": "React | Bootstrap | Typescript | Firebase",
+        "description": "TV N'Chill is a cutting-edge website that brings you the ultimate collection of top 10 TV series recommendations. Our platform is designed to provide an immersive and futuristic user experience, delivering an unparalleled level of entertainment and convenience. At TV N'Chill, we strive to be your go-to destination for discovering the best TV series. With our trailer previews, streaming links, captivating slideshows, assisted scroll, and futuristic UI/UX, we are committed to delivering a state-of-the-art platform that caters to your entertainment needs, ensuring endless hours of TV series enjoyment.",
+        "github": "https://github.com/nikhilsurfingaus/tv-nchill-web-app",
+        "deployed": "https://tv-nchill.netlify.app",
+        "bgcolor": "transparent",
+        "id": 5
+    },
+
+
     {
         "title": "MoonCoinCollector",
         "image": project7,
@@ -55,7 +72,7 @@ export const data = [{
         "github": "https://github.com/nikhilsurfingaus/fullstack-crypto-portfolio",
         "deployed": "https://mooncoincollector.netlify.app/",
         "bgcolor": "transparent",
-        "id": 7
+        "id": 6
     },
 
     {
@@ -65,6 +82,17 @@ export const data = [{
         "description": "Welcome to BUILDZ, the ultimate car build website, our platform showcases in-depth builds of two iconic cars, the Toyota 86 and Audi A7. With meticulous attention to detail, we provide step-by-step guides, stunning car photos, and renders to bring these builds to life. BUILDZ is the perfect destination to our collection of premium products, get inspired by jaw-dropping car photos, and visualize your dream build.",
         "github": "https://github.com/nikhilsurfingaus/buildz-vue3",
         "deployed": "https://buildz.netlify.app/",
+        "bgcolor": "transparent",
+        "id": 7
+    },
+
+    {
+        "title": "XRP SECentral",
+        "image": project10,
+        "technologies": "React | Typescript | Firebase | Bootstrap",
+        "description": "XRP SECentral is a website dedicated to tracking and sharing updates regarding the release of the Hinman emails, which have significant implications for the cryptocurrency XRP and its association with Ripple Labs. The site features a countdown clock that generates excitement by counting down the time remaining until the release of these crucial emails.",
+        "github": "https://github.com/nikhilsurfingaus/xrp-ripple-hinman-countdown",
+        "deployed": "https://xrp-secentral.netlify.app",
         "bgcolor": "transparent",
         "id": 8
     },
@@ -77,7 +105,7 @@ export const data = [{
         "github": "https://github.com/nikhilsurfingaus/australian-tactical-groups-web-app",
         "deployed": "https://australian-tactical-groups.netlify.app/",
         "bgcolor": "transparent",
-        "id": 5
+        "id": 9
     },
 
     {
@@ -88,6 +116,6 @@ export const data = [{
         "github": "https://github.com/nikhilsurfingaus/FlyInOzApp",
         "deployed": "https://flyinoz.netlify.app/",
         "bgcolor": "transparent",
-        "id": 6
+        "id": 10
     }
 ]
