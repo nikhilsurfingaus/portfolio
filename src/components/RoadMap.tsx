@@ -260,7 +260,7 @@ const RoadMap = () => {
             <VerticalTimelineElement
                 className="vertical-timeline-element--education"
                 contentStyle={{ background: 'transparent', borderRadius: "20px", 
-                boxShadow: "rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px" ,color: '#fff' }}                date="2023 - Present"
+                boxShadow: "rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px" ,color: '#fff' }}                date="2023"
                 iconStyle={{ background: 'rgb(227 0 255)', color: '#fff' }}
                 icon={<i className="ico ri-building-2-line"/>}
             >
@@ -271,6 +271,20 @@ const RoadMap = () => {
                 </p>
             </VerticalTimelineElement>
 
+            <VerticalTimelineElement
+                className="vertical-timeline-element--education"
+                contentStyle={{ background: 'transparent', borderRadius: "20px", 
+                boxShadow: "rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px" ,color: '#fff' }}                date="2023 - Present"
+                iconStyle={{ background: 'rgb(227 0 255)', color: '#fff' }}
+                icon={<i className="ico ri-building-2-line"/>}
+            >
+                <h3 className="vertical-timeline-element-title">Vue3 Intermidiate</h3>
+                <h4 className="vertical-timeline-element-subtitle">Small Vue3 Projects 2023</h4>
+                <p>
+                Reached an Mid-Intermediate level for Vue3 development, by transfering skils and concepts
+                from React.
+                </p>
+            </VerticalTimelineElement>
 
             <VerticalTimelineElement
                 iconStyle={{ background: 'rgb(233 105 243)', color: '#fff' }}
