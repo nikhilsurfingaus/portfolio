@@ -20,6 +20,16 @@ export const data = [{
         "id": 1
     },
     {
+        "title": "Skyline Obsession",
+        "image": project10,
+        "technologies": "React | Javascript | Firebase | Bootstrap",
+        "description": "Welcome to Skyline Obsession, the ultimate destination for R34 Skyline GTR enthusiasts. Delve into the comprehensive history of this iconic car, from its legendary sports car roots to its status as a timeless automotive masterpiece. Connect with a thriving community of passionate R34 aficionados, explore unbiased user reviews, and be inspired by a diverse gallery of awe-inspiring car modifications. Skyline Obsession offers an unparalleled experience, celebrating the legacy of the R34 Skyline GTR in all its glory, uniting automotive passion and obsession in one place.",
+        "github": "https://github.com/nikhilsurfingaus/skyline-obsession",
+        "deployed": "https://skylineobsession.netlify.app/",
+        "bgcolor": "transparent",
+        "id": 2
+    },
+    {
         "title": "SaveYT.net",
         "image": project2,
         "technologies": "React | Node JS | Express | Bootstrap",
@@ -27,7 +37,7 @@ export const data = [{
         "github": "https://github.com/nikhilsurfingaus/SaveYT.net",
         "deployed": "https://save-yt-net.netlify.app/",
         "bgcolor": "transparent",
-        "id": 2
+        "id": 3
     },
     {
         "title": "OP Burn Station",
@@ -37,7 +47,7 @@ export const data = [{
         "github": "https://github.com/nikhilsurfingaus/OPTokenBurnStationWeb3AppProject",
         "deployed": "https://op-token-burner-station-app.vercel.app/",
         "bgcolor": "transparent",
-        "id": 3
+        "id": 4
     },
     {
         "title": "Quiver NFT Crypto Project",
@@ -47,7 +57,7 @@ export const data = [{
         "github": "https://github.com/nikhilsurfingaus/QuiverNFTWebApp",
         "deployed": "https://quivercrypto.netlify.app/home",
         "bgcolor": "transparent",
-        "id": 4
+        "id": 5
     },
 
 
@@ -60,7 +70,7 @@ export const data = [{
         "github": "https://github.com/nikhilsurfingaus/tv-nchill-web-app",
         "deployed": "https://tv-nchill.netlify.app",
         "bgcolor": "transparent",
-        "id": 5
+        "id": 6
     },
 
 
@@ -72,7 +82,7 @@ export const data = [{
         "github": "https://github.com/nikhilsurfingaus/fullstack-crypto-portfolio",
         "deployed": "https://mooncoincollector.netlify.app/",
         "bgcolor": "transparent",
-        "id": 6
+        "id": 7
     },
 
     {
@@ -82,17 +92,6 @@ export const data = [{
         "description": "Welcome to BUILDZ, the ultimate car build website, our platform showcases in-depth builds of two iconic cars, the Toyota 86 and Audi A7. With meticulous attention to detail, we provide step-by-step guides, stunning car photos, and renders to bring these builds to life. BUILDZ is the perfect destination to our collection of premium products, get inspired by jaw-dropping car photos, and visualize your dream build.",
         "github": "https://github.com/nikhilsurfingaus/buildz-vue3",
         "deployed": "https://buildz.netlify.app/",
-        "bgcolor": "transparent",
-        "id": 7
-    },
-
-    {
-        "title": "XRP SECentral",
-        "image": project10,
-        "technologies": "React | Typescript | Firebase | Bootstrap",
-        "description": "XRP SECentral is a website dedicated to tracking and sharing updates regarding the release of the Hinman emails, which have significant implications for the cryptocurrency XRP and its association with Ripple Labs. The site features a countdown clock that generates excitement by counting down the time remaining until the release of these crucial emails.",
-        "github": "https://github.com/nikhilsurfingaus/xrp-ripple-hinman-countdown",
-        "deployed": "https://xrp-secentral.netlify.app",
         "bgcolor": "transparent",
         "id": 8
     },
