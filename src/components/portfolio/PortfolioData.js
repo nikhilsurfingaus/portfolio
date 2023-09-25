@@ -63,12 +63,12 @@ export const data = [{
 
 
     {
-        "title": "TV N'Chill",
-        "image": project9,
-        "technologies": "React | Bootstrap | Typescript | Firebase",
-        "description": "TV N'Chill is a cutting-edge website that brings you the ultimate collection of top 10 TV series recommendations. Our platform is designed to provide an immersive and futuristic user experience, delivering an unparalleled level of entertainment and convenience. At TV N'Chill, we strive to be your go-to destination for discovering the best TV series. With our trailer previews, streaming links, captivating slideshows, assisted scroll, and futuristic UI/UX, we are committed to delivering a state-of-the-art platform that caters to your entertainment needs, ensuring endless hours of TV series enjoyment.",
-        "github": "https://github.com/nikhilsurfingaus/tv-nchill-web-app",
-        "deployed": "https://tv-nchill.netlify.app",
+        "title": "Chance Viz",
+        "image": project6,
+        "technologies": "React | Typscript | Bootstrap",
+        "description": "ChanceViz is a revolutionary platform that harnesses the power of visualizations to demystify the realm of probability and improbability. We simplify intricate odds into relatable visuals, enabling you to effortlessly grasp the likelihood of various events. At ChanceViz, we empower you to make informed decisions, dispel unrealistic expectations, and gain profound insights into improbable occurrences. Join us on a journey to visualize probability like never before!",
+        "github": "https://github.com/nikhilsurfingaus/chance-viz",
+        "deployed": "https://chanceviz.netlify.app",
         "bgcolor": "transparent",
         "id": 6
     },
@@ -108,12 +108,13 @@ export const data = [{
     },
 
     {
-        "title": "FlyInOz",
-        "image": project6,
-        "technologies": "React | Javascript | Firebase",
-        "description": "Here at FlyInOz we seek to connect the Australian public to domestic aviation here in Australia. Providing Aussies a guide to Airline Operators and Airports, through a collated exposition of booking links and navigation information for airports. Adding to the aviation hub expereience we also offer your you as domestic travllers the opporunity to post your flight reviews in out un-filtered reviews hub using Firbase as a BaaS.",
-        "github": "https://github.com/nikhilsurfingaus/FlyInOzApp",
-        "deployed": "https://flyinoz.netlify.app/",
+
+        "title": "TV N'Chill",
+        "image": project9,
+        "technologies": "React | Bootstrap | Typescript | Firebase",
+        "description": "TV N'Chill is a cutting-edge website that brings you the ultimate collection of top 10 TV series recommendations. Our platform is designed to provide an immersive and futuristic user experience, delivering an unparalleled level of entertainment and convenience. At TV N'Chill, we strive to be your go-to destination for discovering the best TV series. With our trailer previews, streaming links, captivating slideshows, assisted scroll, and futuristic UI/UX, we are committed to delivering a state-of-the-art platform that caters to your entertainment needs, ensuring endless hours of TV series enjoyment.",
+        "github": "https://github.com/nikhilsurfingaus/tv-nchill-web-app",
+        "deployed": "https://tv-nchill.netlify.app",
         "bgcolor": "transparent",
         "id": 10
     }
