@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavUI/Navbar";
 import HomePage from "./Home";
 import Profile from "./Profile";
 import Projects from "./Projects";
 import Contact from "./Contact";
-import Footer from "../components/Footer";
+import Footer from "../components/NavUI/Footer";
 import PageNotFound from "../components/404Err/PageNotFound";
 
 const Layout = () => {

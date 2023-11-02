@@ -1,5 +1,5 @@
-import '../components/Portfolio.css'
-import Portfolio from "../components/Portfolio";
+import '../components/PortfolioUI/Portfolio.css'
+import Portfolio from "../components/PortfolioUI/Portfolio";
 import ScrollToTop from "react-scroll-to-top";
 
 

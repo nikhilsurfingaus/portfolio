@@ -1,4 +1,4 @@
-import Floating from "../components/Floating";
+import Floating from "../components/FloatingUI/Floating";
 import ScrollToTop from "react-scroll-to-top";
 
 const Contact = () => {

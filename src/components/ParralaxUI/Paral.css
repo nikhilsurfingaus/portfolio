@@ -182,7 +182,7 @@ section img#mf {
     margin-top: 50px;
     max-width: 90%;
     height: 100%;
-    background-image: url(../assets/home/profile.png);
+    background-image: url(../../assets/home/profile.png);
     background-size: cover;
     background-position: center;
 }
@@ -277,7 +277,7 @@ section img#mf {
 .webimage {
     max-width: 500px;
     height: 350px;
-    background-image: url(../assets/home/homeOffer.png);
+    background-image: url(../../assets/home/homeOffer.png);
     background-size: cover;
     background-position: center;
 }
@@ -326,7 +326,7 @@ section img#mf {
     .imagedeveloper {
         width: 150px;
         height: 150px;
-        background-image: url(../assets/home/profile.png);
+        background-image: url(../../assets/home/profile.png);
         background-size: cover;
         background-position: center;
         margin-left: 130px;
@@ -343,7 +343,7 @@ section img#mf {
     .webimage {
         max-width: 500px;
         height: 350px;
-        background-image: url(../assets/home/homeOffer.png);
+        background-image: url(../../assets/home/homeOffer.png);
         background-size: cover;
         background-position: center;
     }
