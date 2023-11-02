@@ -1,8 +1,8 @@
 import './Paral.css'
-import stars from '../assets/home/stars.png'
-import mb from '../assets/home/mountains_behind.png'
-import mf from '../assets/home/mountains_front.png'
-import rock from '../assets/home/rock5.png'
+import stars from '../../assets/home/stars.png'
+import mb from '../../assets/home/mountains_behind.png'
+import mf from '../../assets/home/mountains_front.png'
+import rock from '../../assets/home/rock5.png'
 
 import { useRef, useEffect, useCallback } from 'react';
 import { Container, Row, Col } from 'react-bootstrap'

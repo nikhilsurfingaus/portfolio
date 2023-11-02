@@ -12,7 +12,7 @@
 .meimage {
     max-width: 350px;
     height: 350px;
-    background-image: url(../assets/home/profile.png);
+    background-image: url(../../assets/home/profile.png);
     background-size: cover;
     background-position: center;
     margin: 50px auto 0;
@@ -53,7 +53,7 @@
     .meimage {
         width: 200px;
         height: 200px;
-        background-image: url(../assets/home/profile.png);
+        background-image: url(../../assets/home/profile.png);
         background-size: cover;
         background-position: center;
         margin-top: 10px;

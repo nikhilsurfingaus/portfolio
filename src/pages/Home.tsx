@@ -1,4 +1,4 @@
-import HomeParal from "../components/HomeParal";
+import HomeParal from "../components/ParralaxUI/HomeParal";
 
 const HomePage = () => {
     return (

@@ -1,9 +1,9 @@
 import './Skills.css'
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
-import SkillsTab from "./skillbar/SkillsTab";
+import SkillsTab from "../skillbar/SkillsTab";
 import Row from "react-bootstrap/Row";
-import {Jumbotron} from "./skillbar/Jumbo";
+import {Jumbotron} from "../skillbar/Jumbo";
 import { Container } from "react-bootstrap";
 import { Slide } from "react-awesome-reveal";
 
