@@ -6,35 +6,9 @@ import Row from "react-bootstrap/Row";
 import {Jumbotron} from "../skillbar/Jumbo";
 import { Container } from "react-bootstrap";
 import { Slide } from "react-awesome-reveal";
+import { hardSkills, softSkills } from './SkillsData';
 
 const isScrolled = true; // Define the isScrolled prop
-
-const hardSkills = [
-  { name: "React TSX", value: 95 },
-  { name: "Javascript", value: 88 },
-  { name: "Python", value: 85 },
-  { name: "CSS", value: 78 },
-  { name: "Typescript", value: 90 },
-  { name: "Solidity/Web3", value: 85 },
-  { name: "Vue TS", value: 72 },
-  { name: "Django", value: 78 },
-  { name: "Java", value: 82 },
-  { name: "OracleSQL", value: 80 },
-];
-
-const softSkills = [
-  { name: "Collaboration", value: 90 },
-  { name: "Goal-Orientated", value: 88 },
-  { name: "Problem Solving", value: 85 },
-  { name: "Empathy", value: 86 },
-  { name: "Chat GPT", value: 96 },
-  { name: "Time Management", value: 88 },
-  { name: "Creativity", value: 96 },
-  { name: "Adaptability", value: 88 },
-  { name: "Positivity", value: 96 },
-  { name: "UI/UX Design", value: 95 },
-];
-
 
 export const Skills = () => {
   return (
